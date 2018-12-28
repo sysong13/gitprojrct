@@ -16,4 +16,17 @@
 使用git reset HEAD <file> 回到工作区，再次 git checkout --file
 	3)commit之后可以使用5中的版本回退方法
 
+7.添加远程仓库
+	1）生成当前PC的SSH密钥 ssh-keygen -t rsa -C "youremail@example.com"
+	2）打开/.ssh/id_rsa.pub
+	3) 在github仓库中打开账户setting，添加SSH KEY，将上面的密钥复制进去
+	4）将本地仓库与github仓库同步，在本地文件夹中输入
+		  git remote add origin git@github.com:sysong13/gitprojrct.git  
+	5）将本地库的所有内容推送到远程库：
+		  git push -u origin master
+	6）今后提交作业通过命令：
+		  git push origin master
+	
+
+
 	
