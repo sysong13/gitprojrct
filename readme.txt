@@ -10,3 +10,10 @@
 	2）穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
 
 	3）要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+6.工作区和暂存区
+	1）修改但尚未add的部分存在于工作区（working directory）,处于这一阶段时，想要撤回修改，可以使用 git checkout --file 
+	2）修改并已经add的部分在 暂存区（stage）， 处于这一阶段时，想要撤回修改，
+使用git reset HEAD <file> 回到工作区，再次 git checkout --file
+	3)commit之后可以使用5中的版本回退方法
+
+	
