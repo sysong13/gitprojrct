@@ -45,6 +45,8 @@
 	3) 提交修改到远程origin dev分支
 
 	小红：
+	1）在本地创建dev分支，并设置跟踪origin  git checkout -b dev origin/dev
+	2）获取origin/dev的更新 git pull
 
 
 	
