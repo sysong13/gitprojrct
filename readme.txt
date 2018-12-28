@@ -36,8 +36,15 @@
 	2）切回master分支  git checkout master
 	3）合并dev分支 git merge dev
 	4) 删除dev分支 git branch -d dev
-10.解决冲突
-	
+如果需要提交本地分支到远程分支，git push origin dev
+
+10.多人合作
+	小王：
+	1）git clone项目到本地
+	2）此时只能看到master分支，创建新的分支 git checkout -b dev
+	3) 提交修改到远程origin dev分支
+
+	小红：
 
 
 	
