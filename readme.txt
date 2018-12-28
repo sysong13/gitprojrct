@@ -26,6 +26,11 @@
 		  git push -u origin master
 	6）今后提交作业通过命令：
 		  git push origin master
+
+8.创建分支
+	1）创建分支 git branch dev
+	2) 切换到dev分支 git checkout dev  (1和2可以用一条命令代替： git checkout -b dev)
+	3) 查看当前分支  git branch
 	
 
 
