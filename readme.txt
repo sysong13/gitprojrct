@@ -31,6 +31,12 @@
 	1）创建分支 git branch dev
 	2) 切换到dev分支 git checkout dev  (1和2可以用一条命令代替： git checkout -b dev)
 	3) 查看当前分支  git branch
+9.合并分支
+	1）在dev分支修改内容后，提交修改
+	2）切回master分支  git checkout master
+	3）合并dev分支 git merge dev
+	4) 删除dev分支 git branch -d dev
+10.解决冲突
 	
 
 
